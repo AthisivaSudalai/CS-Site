@@ -124,8 +124,14 @@
 <!-- TopNavBar -->
 <nav class="sticky top-0 w-full z-50 border-b bg-white/95 backdrop-blur-sm border-slate-900/10 h-20 flex items-center">
 <div class="flex justify-between items-center max-w-7xl mx-auto px-8 w-full">
-<div class="text-lg font-bold tracking-tighter uppercase text-slate-900">
-                Department of Computer Science
+<div class="flex items-center gap-4">
+                <!-- Replace 'images/mcc-logo.png' with your actual logo filename -->
+                <img alt="MCC Logo" class="h-12 w-auto" src="images/Mcc.jpg"/>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-base font-bold tracking-tighter uppercase text-slate-900">Madras Christian College</span>
+                    <span class="text-xs font-medium tracking-wider text-slate-500 uppercase">(Autonomous)</span>
+                    <span class="text-sm font-bold tracking-tighter uppercase text-secondary">Department of Computer Science</span>
+                </div>
             </div>
 <div class="hidden md:flex items-center space-x-12">
 <a class="text-amber-600 border-l-2 border-amber-600 pl-2 font-medium font-label-sm" href="#about">About</a>
@@ -137,7 +143,8 @@
 </div>
 </nav>
 <!-- Hero Section -->
-<header class="circuit-pattern min-h-[921px] flex flex-col justify-center text-white relative overflow-hidden">
+<header class="min-h-[921px] flex flex-col justify-center text-white relative overflow-hidden" style="background-image: url('images/MCC bg.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div class="absolute inset-0 bg-[#0A1628]/70 z-0"></div>
 <div class="max-w-7xl mx-auto px-8 py-20 relative z-10">
 <div class="w-full lg:w-3/4">
 <h1 class="font-headline-xl text-white mb-6">Excellence in Education &amp; Innovation</h1>
